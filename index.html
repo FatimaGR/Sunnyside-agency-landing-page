@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./styles.css">
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,54 +15,100 @@
   </style>
 </head>
 <body>
-  About
-  Services
-  Projects
-  Contact
+  <div>
+    <img class="about-background" src="./images/desktop/image-header.jpg"/>
 
-  We are creatives
+    <nav class="navbar">
+      <img src="./images/logo.svg"/>
+      <div>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  
+    <div class="about">
+      <h1>We are creatives</h1>
+      <img src="./images/icon-arrow-down.svg"/>
+    </div>
+  </div>
 
-  Transform your brand
+  <div class="services">
+    <div>
+      <h4>Transform your brand</h4>
+      <p>We are a full-service creative agency specializing in helping brands grow fast. 
+      Engage your clients through compelling visuals that do most of the marketing for you.</p>
+      <a>Learn more</a>
+      <img src="./images/desktop/image-transform.jpg"/>
+    </div>
+  
+    <div>
+      <img src="./images/desktop/image-stand-out.jpg"/>
+      <h4>Stand out to the right audience</h4>
+      <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+      <a>Learn more</a>
+    </div>
+  </div>
+  
+  <div class="projects">
+    <div>
+      <img src="./images/desktop/image-graphic-design.jpg"/>
+      <h5>Graphic design</h5>
+      <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+    </div>
+  
+    <div>
+      <img src="./images/desktop/image-gallery-orange.jpg"/>
+      <h5>Photography</h5>
+      <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+    </div>
+  </div>
 
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
+  <div class="testimonials">
+    <h5>Client testimonials</h5>
+    <ul>
+      <li>
+        <img src="./images/image-emily.jpg"/>
+        <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+        <p>Emily R.</p>
+        <p>Marketing Director</p>
+      </li>
+      <li>
+        <img src="./images/image-thomas.jpg"/>
+        <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+        <p>Thomas S.</p>
+        <p>Chief Operating Officer</p>
+      </li>
+      <li>
+        <img src="./images/image-jennie.jpg"/>
+        <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+        <p>Jennie F.</p>
+        <p>Business Owner</p>
+      </li>
+    </ul>
+  </div>
 
-  Learn more
+  <div>
+    <img src="./images/desktop/image-gallery-milkbottles.jpg"/>
+    <img src="./images/desktop/image-gallery-orange.jpg" alt="">
+    <img src="./images/desktop/image-gallery-cone.jpg" alt="">
+    <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="">
+  </div>
 
-  Stand out to the right audience
-
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
-
-  Learn more
-
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-
-  Client testimonials
-
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-  Emily R.
-  Marketing Director
-
-  Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-  Thomas S.
-  Chief Operating Officer
-
-  Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-  Jennie F.
-  Business Owner
-
-  About
-  Services
-  Projects
-  Contact
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="contact">
+    <img src="./images/logo.svg" alt="">
+    <div>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+    </div>
+    <div>
+      <img src="./images/icon-facebook.svg" alt="">
+      <img src="./images/icon-instagram.svg" alt="">
+      <img src="./images/icon-twitter.svg" alt="">
+      <img src="./images/icon-pinterest.svg" alt="">
+    </div>
   </div>
 </body>
 </html>
