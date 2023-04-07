@@ -32,12 +32,60 @@ h1, h2, h3, h4, h5{
 
 /* navbar styles */
 .navbar{
+  width: 100%; 
   display: flex;
   justify-content: space-between;
   position: absolute;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.navbar img{
+  object-fit: contain;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.menu a{
+  color: var(--white);
+  text-decoration: none;
+}
+
+.menu .contact{
+  display: flex;
+  padding: 12px 27px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-family: var(--font-family-secondary);
+  background: var(--white);
+  color: var(--very-dark-desaturated-blue);
 }
 
 .about-background{
-  position: relative;
   width: 100%; 
+}
+
+.about{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  margin-top: 180px;
+}
+
+.about h1{
+  font-size: 60px;
+  letter-spacing: 5px;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.about img{
+  margin-top: 100px;
+  height: 100px;
 }
