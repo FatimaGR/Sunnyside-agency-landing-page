@@ -19,12 +19,10 @@
   --grayish-blue: hsl(210, 4%, 67%);
   --white: hsl(0, 0%, 100%)
 }
-
 *{
   font-family: var(--font-family-primary);
   margin: 0px;
 }
-
 h1, h2, h3, h4, h5{
   font-family: var(--font-family-secondary);
 }
@@ -37,14 +35,12 @@ header{
   position: absolute;
   padding: 25px;
   box-sizing: border-box;
-  background-color: aqua;
   top: 0;
+  z-index: 1;
 }
-
 header img{
   object-fit: contain;
 }
-
 header ul{
   display: flex;
   align-items: center;
@@ -54,12 +50,10 @@ header ul{
   margin: 0;
   font-size: 16px;
 }
-
 header ul a{
   color: var(--white);
   text-decoration: none;
 }
-
 header ul .contact{
   display: flex;
   padding: 12px 22px;
@@ -73,7 +67,7 @@ header ul .contact{
 /* about styles */
 
 .about{
-  height: 646px;
+  height: 120vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,16 +76,26 @@ header ul .contact{
   background-image: url('./images/desktop/image-header.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 50%;
   gap: 70px;
 }
-
 .about h1{
-  font-size: 60px;
+  font-size: 50px;
   letter-spacing: 5px;
   color: var(--white);
   text-transform: uppercase;
+  text-align: center;
+}
+.about img{
+  height: 80px;
 }
 
-.about img{
-  height: 100px;
-}
+/* services styles */
+
+/* projects styles */
+
+/* testimonials styles */
+
+/* gallery styles */
+
+/* footer styles */
