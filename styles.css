@@ -43,6 +43,7 @@ header img{
 }
 header .hamburguer{
   position: relative;
+  cursor: pointer;
 }
 header ul{
   display: flex;
@@ -154,6 +155,7 @@ header ul .contact{
   font-family: var(--font-family-secondary);
   text-transform: uppercase;
   font-weight: 900;
+  cursor: pointer;
 }
 
 /* projects styles */
@@ -201,7 +203,7 @@ header ul .contact{
   width: 100%;
 }
 .testimonials{
-  padding: 70px 40px;
+  padding: 70px 40px 90px 40px;
   box-sizing: border-box;
   gap: 70px;
 }
@@ -241,5 +243,44 @@ header ul .contact{
 }
 
 /* gallery styles */
+.gallery{
+  display: flex;
+  flex-flow: row wrap;
+}
+.gallery img{
+  width: 50vw;  
+}
 
 /* footer styles */
+footer{
+  color: var(--dark-moderate-cyan);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 70px 0;
+  box-sizing: border-box;
+  background-color: rgb(170, 255, 251);
+}
+footer ul{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  background-color: none;
+  list-style: none;
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+}
+footer ul a{
+  text-decoration: none;
+  color: hsla(168, 34%, 41%, 0.818);
+}
+footer .icons{
+  display: flex;
+  gap: 30px;
+}
+footer .logo{
+  height: 40px;
+}
