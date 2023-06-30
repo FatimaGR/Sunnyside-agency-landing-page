@@ -46,6 +46,8 @@ header .hamburguer{
   cursor: pointer;
 }
 header ul{
+  opacity: 0;
+  visibility: hidden;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -61,6 +63,15 @@ header ul{
   box-sizing: border-box;
   top: 100px;
   left: 5%;
+}
+.visible{
+  opacity: 1;
+  visibility: visible;
+}
+header > button{
+  background: none;
+  border: none;
+  outline: none;
 }
 header ul a{
   color: var(--very-dark-grayish-blue);
@@ -271,6 +282,9 @@ footer .icons{
   display: flex;
   gap: 30px;
 }
+footer .icons a:hover{
+  color: white;
+}
 footer .logo{
   height: 40px;
 }
@@ -287,6 +301,8 @@ footer .logo{
     display: none;
   }
   header ul{
+    opacity: 1;
+    visibility: visible;
     flex-flow: row wrap;
     padding: 0;
     background-color: transparent;
