@@ -23,7 +23,7 @@
   font-family: var(--font-family-primary);
   margin: 0px;
 }
-h1, h2, h3, h4, h5{
+h1, h2, h3, h4, h5, .title{
   font-family: var(--font-family-secondary);
 }
 
@@ -171,7 +171,7 @@ header ul .contact{
   box-sizing: border-box;
   text-align: center;
 }
-.projects .info h5{
+.projects .info .title{
   font-weight: 900;
   font-size: 35px;
   margin-bottom: 5%;
@@ -206,7 +206,7 @@ header ul .contact{
   gap: 70px;
   text-align: center;
 }
-.testimonials h5{
+.testimonials .title{
   letter-spacing: 5px;
   text-transform: uppercase;
   color: var(--grayish-blue);
@@ -322,6 +322,14 @@ footer .logo{
   }
   .about{
     background-image: url('./images/desktop/image-header.jpg');
+    height: 100vh;
+  }
+  .about h1{
+    font-size: 55px;
+  }
+  .about img{
+    height: 95px;
+    width: 30px;
   }
   .projects .desktop{
     display: flex;

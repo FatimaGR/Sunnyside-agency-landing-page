@@ -8,11 +8,7 @@ This is a solution to the [Sunnyside agency landing page challenge on Frontend M
   - [Screenshot](#screenshot)
   - [The challenge](#the-challenge)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [Built with](#built-with)
 - [Author](#author)
 
 ## Overview
@@ -33,8 +29,6 @@ Users should be able to:
 
 - Solution URL: [Sunnyside agency landing page Solution](https://github.com/FatimaGR/Sunnyside-agency-landing-page)
 - Live Site URL: [Sunnyside agency](https://sunnyside-agency-landing-page-swart-eight.vercel.app)
-
-## My process
 
 ### Built with
 
